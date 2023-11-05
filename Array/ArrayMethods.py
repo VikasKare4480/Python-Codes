@@ -1,7 +1,19 @@
 
 import array as arr
 
+
+
 data = arr.array('i', [10,20,30,40])
+
+# properties of array 
+
+# itemsize
+
+print('itemsize' , data.itemsize) # 4 bytes
+
+# typecode
+
+print('typecode ' , data.typecode) # i -- integers
 
 
 print(data) # array('i',[list of elements])
