@@ -1,7 +1,7 @@
 # Python-Codes
 
-<h1>
+<h3>
 
   Here are the practice codes of python for Machine Leaning and Data Science 
   
-</h1>
+</h3>
