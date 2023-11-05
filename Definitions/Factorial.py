@@ -18,4 +18,4 @@ print('Factorial of {} is : {}'.format(num, fact))
 
 print(type(fact))
 
-factorial = factorial("Vikas")
+factorial = factorial("Vikas") 
