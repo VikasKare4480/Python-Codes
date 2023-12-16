@@ -21,7 +21,7 @@ empObj = Empleyee();
 
 # print(id(empObj))?
 print(type(empObj.display))
-print(empObj.display)
+empObj.display()
 
 
 
