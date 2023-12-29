@@ -11,15 +11,14 @@ def decorFun(func):
 def normalFunc():
     print('Normal function')
 
-
 normalFunc()
 
-def keyWardArgs(**kargs):
+# def keyWardArgs(**kargs):
 
-    sum = 0
-    for key, value in kargs.items():
-        sum += value
+#     sum = 0
+#     for key, value in kargs.items():
+#         sum += value
 
-    return sum
+#     return sum
 
-print(keyWardArgs(x = 20, y = 90, z = 60))
+# print(keyWardArgs(x = 20, y = 90, z = 60))
