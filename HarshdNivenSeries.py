@@ -2,7 +2,7 @@
 
 """
 
-    this series is the number serie which contains all the interger whose digitsum is fully
+    this series is the number serie which contains all the integer whose digitsum is fully
     devide that number 
 
 """
