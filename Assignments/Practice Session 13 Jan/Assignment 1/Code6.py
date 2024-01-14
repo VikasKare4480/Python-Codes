@@ -44,37 +44,52 @@ else:
 
 
 
-print("1. isPalindrome \n 2. myIndex")
+flag = True
 
-choice = int(input("Enter Choice : "))
+while(flag == True):
 
+    print("1.Palindrome Check : \n2. Index Check : ")
 
-if(choice == 1):
+    choice = int(input("Enter Choice : "))
 
-    num = int(input("Enter the input : "))
+    match choice:
 
-    if(obj.palindrome(num)):
+        case 1 :
 
-        print(num, ' is Palindrome')
-    else:
+            num = int(input("Enter the input : "))
 
-        print(num, ' is not palindrome')
+            if(obj.palindrome(num)):
 
-elif(choice == 2):
+                print(num, ' is Palindrome')
+            else:
 
-    print(list)
+                print(num, ' is not palindrome')      
+            
 
-    target = int(input("Enter the target from the list : "))
+        case 2 :
 
-    index = obj.myIndex(list, target)
+            print(list)
 
-    if(index != -1):
+            target = int(input("Enter the target from the list : "))
 
-        print(target, "present at the index : {}".format(index))
+            index = obj.myIndex(list, target)
 
-    else:
+            if(index != -1):
 
-        print(target, " is not present int the list")
-    
+                print(target, "present at the index : {}".format(index))
+
+            else:
+
+                print(target, "is not present int the list")
+
+        case _ : # this is default case
+
+            print('Invalid Choice Entered please enter valid index')
+            
+
+    str = input('Do you want to continue (Y/y) : ')    
+
+    if(str == 'Y' or str == 'y'): flag = True
+    else: flag = False
 
         
